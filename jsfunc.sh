@@ -1,4 +1,3 @@
-#!/bin/bash
 jsfunc() {
   local code="$(cat)"
   local fn="$(cat <<EOFF
