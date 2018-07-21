@@ -15,7 +15,7 @@ ${code}
   .then(val => {
     const type = typeof val;
     if (type !== 'undefined') {
-      console.log(type === 'string' ? val : JSON.stringify(val, null, 2));
+      console.log(type === 'string' ? val : JSON.stringify(val));
     }
   }).catch(err => {
     console.error(err.stack);
