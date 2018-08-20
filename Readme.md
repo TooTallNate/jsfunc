@@ -1,7 +1,9 @@
 # jsfunc
 
-Write JavaScript functions - use as bash functions!
+Write JavaScript functions - use as shell functions!
 
+**Note:** `jsfunc` requires a shell that supports [Here
+Documents](http://tldp.org/LDP/abs/html/here-docs.html). `bash` is recommended.
 
 ## Example
 
