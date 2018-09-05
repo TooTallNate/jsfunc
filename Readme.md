@@ -8,8 +8,8 @@ Documents](http://tldp.org/LDP/abs/html/here-docs.html). `bash` is recommended.
 ## Example
 
 ```bash
-#!/bin/sh
-eval "`curl -sfLS import.pw`"
+#!/bin/bash
+. "$(which import)"
 
 import tootallnate/jsfunc@2.0.0
 
